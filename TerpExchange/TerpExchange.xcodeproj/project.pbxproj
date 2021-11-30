@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164C233CBE5B6D9B3DB4F64C /* Pods_TerpExchangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3AC7D66F7854E57EF06DE8 /* Pods_TerpExchangeTests.framework */; };
+		2C841ABC26051EC900F6260B /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C841ABB26051EC900F6260B /* LoginPage.swift */; };
+		2C841AC426051EF600F6260B /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C841AC326051EF600F6260B /* SignUpPage.swift */; };
+		2C841ACC26051F6B00F6260B /* MainFeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C841ACB26051F6B00F6260B /* MainFeedPage.swift */; };
+		2C841AD126051F9A00F6260B /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C841AD026051F9A00F6260B /* ProfilePage.swift */; };
+		2CA7E888262EC29600D8689A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7E887262EC29600D8689A /* MessageView.swift */; };
+		321898BC2616D81000CCEC47 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898BB2616D81000CCEC47 /* ImagePicker.swift */; };
+		321898CE2617AB1300CCEC47 /* UploadPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898CD2617AB1300CCEC47 /* UploadPost.swift */; };
+		321898D62617ABB000CCEC47 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898D52617ABB000CCEC47 /* ProfileView.swift */; };
+		322B1EAE26053E7500B25655 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B1EAD26053E7500B25655 /* CardView.swift */; };
+		6513218A0609CC04DBBC045B /* Pods_TerpExchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCFF8B82E4CCD245AC202B0 /* Pods_TerpExchange.framework */; };
+		7F3A74042603D89400F80F2C /* TerpExchangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A74032603D89400F80F2C /* TerpExchangeApp.swift */; };
+		7F3A74062603D89400F80F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A74052603D89400F80F2C /* ContentView.swift */; };
+		7F3A74082603D89400F80F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3A74072603D89400F80F2C /* Assets.xcassets */; };
+		7F3A740B2603D89400F80F2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3A740A2603D89400F80F2C /* Preview Assets.xcassets */; };
+		7F3A74162603D89400F80F2C /* TerpExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A74152603D89400F80F2C /* TerpExchangeTests.swift */; };
+		7F3A74212603D89400F80F2C /* TerpExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A74202603D89400F80F2C /* TerpExchangeUITests.swift */; };
+		7F46668F2603E2B100EEB7FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F46668E2603E2B100EEB7FD /* GoogleService-Info.plist */; };
+		7F4666902603E2B100EEB7FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F46668E2603E2B100EEB7FD /* GoogleService-Info.plist */; };
+		7F4666912603E2B100EEB7FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F46668E2603E2B100EEB7FD /* GoogleService-Info.plist */; };
+		7F88AA1F2619A63A00113DAC /* MessagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88AA1E2619A63A00113DAC /* MessagePage.swift */; };
+		7FE4C3EE262EB5B500F44B6C /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4C3ED262EB5B500F44B6C /* Search.swift */; };
+		A36006EB5D2E2567DBEC6888 /* Pods_TerpExchange_TerpExchangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07624E2724464D933CB3891F /* Pods_TerpExchange_TerpExchangeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3A74122603D89400F80F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3A73F82603D89400F80F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3A73FF2603D89400F80F2C;
+			remoteInfo = TerpExchange;
+		};
+		7F3A741D2603D89400F80F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3A73F82603D89400F80F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3A73FF2603D89400F80F2C;
+			remoteInfo = TerpExchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07624E2724464D933CB3891F /* Pods_TerpExchange_TerpExchangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TerpExchange_TerpExchangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		161B7BD422DB6A9A6E9FE2D0 /* Pods-TerpExchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchange.debug.xcconfig"; path = "Target Support Files/Pods-TerpExchange/Pods-TerpExchange.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCFF8B82E4CCD245AC202B0 /* Pods_TerpExchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TerpExchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C816001B0C4087C214B176 /* Pods-TerpExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchangeTests.release.xcconfig"; path = "Target Support Files/Pods-TerpExchangeTests/Pods-TerpExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C841ABB26051EC900F6260B /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginPage.swift; path = TerpExchange/LoginPage.swift; sourceTree = SOURCE_ROOT; };
+		2C841AC326051EF600F6260B /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpPage.swift; path = TerpExchange/SignUpPage.swift; sourceTree = SOURCE_ROOT; };
+		2C841ACB26051F6B00F6260B /* MainFeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainFeedPage.swift; path = TerpExchange/MainFeedPage.swift; sourceTree = SOURCE_ROOT; };
+		2C841AD026051F9A00F6260B /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfilePage.swift; path = TerpExchange/ProfilePage.swift; sourceTree = SOURCE_ROOT; };
+		2CA7E887262EC29600D8689A /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		321898BB2616D81000CCEC47 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		321898CD2617AB1300CCEC47 /* UploadPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPost.swift; sourceTree = "<group>"; };
+		321898D52617ABB000CCEC47 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		322B1EAD26053E7500B25655 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = TerpExchange/CardView.swift; sourceTree = SOURCE_ROOT; };
+		7F3A74002603D89400F80F2C /* TerpExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerpExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3A74032603D89400F80F2C /* TerpExchangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TerpExchangeApp.swift; path = TerpExchange/TerpExchangeApp.swift; sourceTree = SOURCE_ROOT; };
+		7F3A74052603D89400F80F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = TerpExchange/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		7F3A74072603D89400F80F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3A740A2603D89400F80F2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F3A740C2603D89400F80F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3A74112603D89400F80F2C /* TerpExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerpExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3A74152603D89400F80F2C /* TerpExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerpExchangeTests.swift; sourceTree = "<group>"; };
+		7F3A74172603D89400F80F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3A741C2603D89400F80F2C /* TerpExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerpExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3A74202603D89400F80F2C /* TerpExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerpExchangeUITests.swift; sourceTree = "<group>"; };
+		7F3A74222603D89400F80F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F46668E2603E2B100EEB7FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F88AA1E2619A63A00113DAC /* MessagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePage.swift; sourceTree = "<group>"; };
+		7FE4C3ED262EB5B500F44B6C /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		9A1834A4EE3C15070C20E813 /* Pods-TerpExchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchange.release.xcconfig"; path = "Target Support Files/Pods-TerpExchange/Pods-TerpExchange.release.xcconfig"; sourceTree = "<group>"; };
+		DC55D338C40F999938C36207 /* Pods-TerpExchange-TerpExchangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchange-TerpExchangeUITests.release.xcconfig"; path = "Target Support Files/Pods-TerpExchange-TerpExchangeUITests/Pods-TerpExchange-TerpExchangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD155DA6640E47E2DB4CC7CD /* Pods-TerpExchange-TerpExchangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchange-TerpExchangeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TerpExchange-TerpExchangeUITests/Pods-TerpExchange-TerpExchangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3AC7D66F7854E57EF06DE8 /* Pods_TerpExchangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TerpExchangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AE038FDBBE4B6889F25F73 /* Pods-TerpExchangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerpExchangeTests.debug.xcconfig"; path = "Target Support Files/Pods-TerpExchangeTests/Pods-TerpExchangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3A73FD2603D89400F80F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6513218A0609CC04DBBC045B /* Pods_TerpExchange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A740E2603D89400F80F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164C233CBE5B6D9B3DB4F64C /* Pods_TerpExchangeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A74192603D89400F80F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36006EB5D2E2567DBEC6888 /* Pods_TerpExchange_TerpExchangeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1600024AC3EE9488608A1740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCFF8B82E4CCD245AC202B0 /* Pods_TerpExchange.framework */,
+				07624E2724464D933CB3891F /* Pods_TerpExchange_TerpExchangeUITests.framework */,
+				EA3AC7D66F7854E57EF06DE8 /* Pods_TerpExchangeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F3A73F72603D89400F80F2C = {
+			isa = PBXGroup;
+			children = (
+				7F3A74022603D89400F80F2C /* TerpExchange */,
+				7F3A74142603D89400F80F2C /* TerpExchangeTests */,
+				7F3A741F2603D89400F80F2C /* TerpExchangeUITests */,
+				7F3A74012603D89400F80F2C /* Products */,
+				EAB2985905A3D3E48644239F /* Pods */,
+				1600024AC3EE9488608A1740 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3A74012603D89400F80F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A74002603D89400F80F2C /* TerpExchange.app */,
+				7F3A74112603D89400F80F2C /* TerpExchangeTests.xctest */,
+				7F3A741C2603D89400F80F2C /* TerpExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3A74022603D89400F80F2C /* TerpExchange */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A74032603D89400F80F2C /* TerpExchangeApp.swift */,
+				7F3A74052603D89400F80F2C /* ContentView.swift */,
+				7F3A74072603D89400F80F2C /* Assets.xcassets */,
+				7F3A740C2603D89400F80F2C /* Info.plist */,
+				7F46668E2603E2B100EEB7FD /* GoogleService-Info.plist */,
+				7F3A74092603D89400F80F2C /* Preview Content */,
+				2C841ABB26051EC900F6260B /* LoginPage.swift */,
+				2C841AC326051EF600F6260B /* SignUpPage.swift */,
+				7FE4C3ED262EB5B500F44B6C /* Search.swift */,
+				321898CD2617AB1300CCEC47 /* UploadPost.swift */,
+				2C841ACB26051F6B00F6260B /* MainFeedPage.swift */,
+				322B1EAD26053E7500B25655 /* CardView.swift */,
+				7F88AA1E2619A63A00113DAC /* MessagePage.swift */,
+				2CA7E887262EC29600D8689A /* MessageView.swift */,
+				2C841AD026051F9A00F6260B /* ProfilePage.swift */,
+				321898D52617ABB000CCEC47 /* ProfileView.swift */,
+				321898BB2616D81000CCEC47 /* ImagePicker.swift */,
+			);
+			path = TerpExchange;
+			sourceTree = "<group>";
+		};
+		7F3A74092603D89400F80F2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A740A2603D89400F80F2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F3A74142603D89400F80F2C /* TerpExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A74152603D89400F80F2C /* TerpExchangeTests.swift */,
+				7F3A74172603D89400F80F2C /* Info.plist */,
+			);
+			path = TerpExchangeTests;
+			sourceTree = "<group>";
+		};
+		7F3A741F2603D89400F80F2C /* TerpExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A74202603D89400F80F2C /* TerpExchangeUITests.swift */,
+				7F3A74222603D89400F80F2C /* Info.plist */,
+			);
+			path = TerpExchangeUITests;
+			sourceTree = "<group>";
+		};
+		EAB2985905A3D3E48644239F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				161B7BD422DB6A9A6E9FE2D0 /* Pods-TerpExchange.debug.xcconfig */,
+				9A1834A4EE3C15070C20E813 /* Pods-TerpExchange.release.xcconfig */,
+				DD155DA6640E47E2DB4CC7CD /* Pods-TerpExchange-TerpExchangeUITests.debug.xcconfig */,
+				DC55D338C40F999938C36207 /* Pods-TerpExchange-TerpExchangeUITests.release.xcconfig */,
+				F6AE038FDBBE4B6889F25F73 /* Pods-TerpExchangeTests.debug.xcconfig */,
+				21C816001B0C4087C214B176 /* Pods-TerpExchangeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3A73FF2603D89400F80F2C /* TerpExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3A74252603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchange" */;
+			buildPhases = (
+				C94EDBBD8305B7AF4EAAE6CF /* [CP] Check Pods Manifest.lock */,
+				7F3A73FC2603D89400F80F2C /* Sources */,
+				7F3A73FD2603D89400F80F2C /* Frameworks */,
+				7F3A73FE2603D89400F80F2C /* Resources */,
+				68ACAF1237A024E58FB4CC6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerpExchange;
+			productName = TerpExchange;
+			productReference = 7F3A74002603D89400F80F2C /* TerpExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F3A74102603D89400F80F2C /* TerpExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3A74282603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchangeTests" */;
+			buildPhases = (
+				0DB01A9CE3F18043D810B4B8 /* [CP] Check Pods Manifest.lock */,
+				7F3A740D2603D89400F80F2C /* Sources */,
+				7F3A740E2603D89400F80F2C /* Frameworks */,
+				7F3A740F2603D89400F80F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3A74132603D89400F80F2C /* PBXTargetDependency */,
+			);
+			name = TerpExchangeTests;
+			productName = TerpExchangeTests;
+			productReference = 7F3A74112603D89400F80F2C /* TerpExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F3A741B2603D89400F80F2C /* TerpExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3A742B2603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchangeUITests" */;
+			buildPhases = (
+				CC1F5B583AF0D89CBA1CA6DB /* [CP] Check Pods Manifest.lock */,
+				7F3A74182603D89400F80F2C /* Sources */,
+				7F3A74192603D89400F80F2C /* Frameworks */,
+				7F3A741A2603D89400F80F2C /* Resources */,
+				792441A8B4D130B394A034FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3A741E2603D89400F80F2C /* PBXTargetDependency */,
+			);
+			name = TerpExchangeUITests;
+			productName = TerpExchangeUITests;
+			productReference = 7F3A741C2603D89400F80F2C /* TerpExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3A73F82603D89400F80F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7F3A73FF2603D89400F80F2C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7F3A74102603D89400F80F2C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7F3A73FF2603D89400F80F2C;
+					};
+					7F3A741B2603D89400F80F2C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7F3A73FF2603D89400F80F2C;
+					};
+				};
+			};
+			buildConfigurationList = 7F3A73FB2603D89400F80F2C /* Build configuration list for PBXProject "TerpExchange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3A73F72603D89400F80F2C;
+			productRefGroup = 7F3A74012603D89400F80F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3A73FF2603D89400F80F2C /* TerpExchange */,
+				7F3A74102603D89400F80F2C /* TerpExchangeTests */,
+				7F3A741B2603D89400F80F2C /* TerpExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3A73FE2603D89400F80F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3A740B2603D89400F80F2C /* Preview Assets.xcassets in Resources */,
+				7F3A74082603D89400F80F2C /* Assets.xcassets in Resources */,
+				7F46668F2603E2B100EEB7FD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A740F2603D89400F80F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4666902603E2B100EEB7FD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A741A2603D89400F80F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4666912603E2B100EEB7FD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB01A9CE3F18043D810B4B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TerpExchangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68ACAF1237A024E58FB4CC6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TerpExchange/Pods-TerpExchange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TerpExchange/Pods-TerpExchange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerpExchange/Pods-TerpExchange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792441A8B4D130B394A034FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TerpExchange-TerpExchangeUITests/Pods-TerpExchange-TerpExchangeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TerpExchange-TerpExchangeUITests/Pods-TerpExchange-TerpExchangeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerpExchange-TerpExchangeUITests/Pods-TerpExchange-TerpExchangeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94EDBBD8305B7AF4EAAE6CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TerpExchange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1F5B583AF0D89CBA1CA6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TerpExchange-TerpExchangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3A73FC2603D89400F80F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321898CE2617AB1300CCEC47 /* UploadPost.swift in Sources */,
+				2C841AD126051F9A00F6260B /* ProfilePage.swift in Sources */,
+				321898D62617ABB000CCEC47 /* ProfileView.swift in Sources */,
+				7F3A74062603D89400F80F2C /* ContentView.swift in Sources */,
+				7F88AA1F2619A63A00113DAC /* MessagePage.swift in Sources */,
+				2CA7E888262EC29600D8689A /* MessageView.swift in Sources */,
+				321898BC2616D81000CCEC47 /* ImagePicker.swift in Sources */,
+				2C841AC426051EF600F6260B /* SignUpPage.swift in Sources */,
+				2C841ABC26051EC900F6260B /* LoginPage.swift in Sources */,
+				2C841ACC26051F6B00F6260B /* MainFeedPage.swift in Sources */,
+				7FE4C3EE262EB5B500F44B6C /* Search.swift in Sources */,
+				322B1EAE26053E7500B25655 /* CardView.swift in Sources */,
+				7F3A74042603D89400F80F2C /* TerpExchangeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A740D2603D89400F80F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3A74162603D89400F80F2C /* TerpExchangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3A74182603D89400F80F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3A74212603D89400F80F2C /* TerpExchangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3A74132603D89400F80F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3A73FF2603D89400F80F2C /* TerpExchange */;
+			targetProxy = 7F3A74122603D89400F80F2C /* PBXContainerItemProxy */;
+		};
+		7F3A741E2603D89400F80F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3A73FF2603D89400F80F2C /* TerpExchange */;
+			targetProxy = 7F3A741D2603D89400F80F2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F3A74232603D89400F80F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3A74242603D89400F80F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3A74262603D89400F80F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161B7BD422DB6A9A6E9FE2D0 /* Pods-TerpExchange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TerpExchange/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TerpExchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3A74272603D89400F80F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1834A4EE3C15070C20E813 /* Pods-TerpExchange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TerpExchange/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TerpExchange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F3A74292603D89400F80F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AE038FDBBE4B6889F25F73 /* Pods-TerpExchangeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TerpExchangeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerpExchange.app/TerpExchange";
+			};
+			name = Debug;
+		};
+		7F3A742A2603D89400F80F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C816001B0C4087C214B176 /* Pods-TerpExchangeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TerpExchangeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerpExchange.app/TerpExchange";
+			};
+			name = Release;
+		};
+		7F3A742C2603D89400F80F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD155DA6640E47E2DB4CC7CD /* Pods-TerpExchange-TerpExchangeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TerpExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerpExchange;
+			};
+			name = Debug;
+		};
+		7F3A742D2603D89400F80F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC55D338C40F999938C36207 /* Pods-TerpExchange-TerpExchangeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TerpExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Team53.TerpExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerpExchange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3A73FB2603D89400F80F2C /* Build configuration list for PBXProject "TerpExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3A74232603D89400F80F2C /* Debug */,
+				7F3A74242603D89400F80F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3A74252603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3A74262603D89400F80F2C /* Debug */,
+				7F3A74272603D89400F80F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3A74282603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3A74292603D89400F80F2C /* Debug */,
+				7F3A742A2603D89400F80F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3A742B2603D89400F80F2C /* Build configuration list for PBXNativeTarget "TerpExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3A742C2603D89400F80F2C /* Debug */,
+				7F3A742D2603D89400F80F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3A73F82603D89400F80F2C /* Project object */;
+}

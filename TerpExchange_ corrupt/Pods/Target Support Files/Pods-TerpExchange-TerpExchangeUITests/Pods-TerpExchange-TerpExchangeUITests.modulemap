@@ -1,0 +1,6 @@
+framework module Pods_TerpExchange_TerpExchangeUITests {
+  umbrella header "Pods-TerpExchange-TerpExchangeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
